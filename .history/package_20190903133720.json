@@ -1,7 +1,7 @@
 {
   "name": "react-debounce-input-16",
   "version": "3.2.0",
-  "description": "Forked React component that renders Input with debounced onChange",
+  "description": "React component that renders Input with debounced onChange",
   "main": "lib/index.js",
   "types": "src/index.d.ts",
   "config": {
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erisol/react-debounce-input-16"
+    "url": "git+https://github.com/nkbt/react-debounce-input.git"
   },
   "keywords": [
     "component",
@@ -42,9 +42,9 @@
   "author": "Nik Butenko <nik@butenko.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/erisol/react-debounce-input-16/issues"
+    "url": "https://github.com/nkbt/react-debounce-input/issues"
   },
-  "homepage": "https://github.com/erisol/react-debounce-input-16",
+  "homepage": "https://github.com/nkbt/react-debounce-input",
   "peerDependencies": {
     "react": "^15.3.0 || ^16.0.0"
   },
