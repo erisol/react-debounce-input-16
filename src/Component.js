@@ -47,12 +47,12 @@ export class DebounceInput extends React.PureComponent {
   }
 
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.createNotifier(this.props.debounceTimeout);
   }
 
 
-  componentWillReceiveProps({value, debounceTimeout}) {
+  UNSAFE_componentWillReceiveProps({value, debounceTimeout}) {
     if (this.isDebouncing) {
       return;
     }
